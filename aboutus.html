@@ -9,21 +9,17 @@
   body {
   font-family: 'Quicksand', sans-serif;
 }
-
 .gal-container {
   padding: 12px;
 }
-
 .gal-item {
   overflow: hidden;
   padding: 3px;
 }
-
 .gal-item .box {
   height: 350px;
   overflow: hidden;
 }
-
 .box img {
   height: 110%;
   width: 110%;
@@ -34,22 +30,18 @@
   -moz-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-
 .box:hover img{
   transform: scale(1.1);
   -webkit-transition: all 0.5s ease-in-out 0s;
   -moz-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-
 .gal-item a:focus {
   outline: none;
 }
-
 .gal-item a{
   cursor: pointer;
 }
-
 .gal-item a::after {
   content: "\f00e";
   font-family: "FontAwesome";
@@ -68,19 +60,15 @@
   -moz-transition: all 0.5s ease-in-out 0s;
   transition: all 0.5s ease-in-out 0s;
 }
-
 .gal-item a:hover:after {
   opacity: 1;
 }
-
 .modal-open .gal-container .modal {
   background-color: rgba(0,0,0,0.4);
 }
-
 .modal-open .gal-item .modal-body {
   padding: 0px;
 }
-
 .modal-open .gal-item button.close {
   position: absolute;
   width: 25px;
@@ -98,47 +86,36 @@
   -webkit-box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
   box-shadow: 0 0 1px 1px rgba(0,0,0,0.35);
 }
-
 .modal-open .gal-item button.close:focus {
   outline: none;
 }
-
 .modal-open .gal-item button.close span {
   position: relative;
   top: -3px;
   font-weight: lighter;
   text-shadow: none;
 }
-
 .gal-container {
   width: 80%;
 }
-
-
 @media (min-width: 768px) {
   .gal-container .modal-dialog {
     width: 55%;
     margin: 50 auto;
   }
 }
-
 @media (max-width: 768px) {
   .gal-container .modal-content {
     height: 250px;
   }
 }
-
-
 /* Modal */
 #myImg {
   border-radius: 5px;
   cursor: pointer;
   transition: 0.3s;
 }
-
 #myImg:hover {opacity: 0.7;}
-
-
 .modal {
   display: none;
   position: fixed;
@@ -152,14 +129,12 @@
   background-color: rgb(0,0,0); 
   background-color: rgba(0,0,0,0.9); 
 }
-
 .modal-content {
   margin: auto;
   display: block;
   width: 80%;
   max-width: 700px;
 }
-
 #caption {
   margin: auto;
   display: block;
@@ -170,17 +145,14 @@
   padding: 10px 0;
   height: 150px;
 }
-
 .modal-content, #caption { 
   animation-name: zoom;
   animation-duration: 0.6s;
 }
-
 @keyframes zoom {
   from {transform:scale(0)} 
   to {transform:scale(1)}
 }
-
 .close {
   position: absolute;
   top: 15px;
@@ -190,14 +162,12 @@
   font-weight: bold;
   transition: 0.3s;
 }
-
 .close:hover,
 .close:focus {
   color: #bbb;
   text-decoration: none;
   cursor: pointer;
 }
-
 @media only screen and (max-width: 700px){
   .modal-content {
     width: 100%;
@@ -221,11 +191,9 @@
     width: 100%;
     z-index: 10;
 }
-
 .topnav ul li {
 	float: right;
 }
-
 .topnav ul li a {
 	font-size: 16px;
     display: inline-block;
@@ -235,7 +203,6 @@
     text-decoration: none;
     transition: 0.3s;
 }
-
 .span-logo img {
 	display: inline-block;
 	vertical-align: top;
@@ -246,7 +213,6 @@
 	float: left;
 	padding: 0px;
 }
-
 .span-logo p {
 	font-size: 16px;
 	text-decoration: none;
@@ -254,11 +220,8 @@
 	float: left;
 	padding: 15px 0px;
 }
-
 .topnav ul li a:hover {background-color: #b4aeae;}
-
 .topnav ul li.icon {display: none;}
-
 @media screen and (max-width:680px) {
   .topnav ul li:not(:first-child) {display: none;}
   .topnav ul li.icon {
@@ -266,7 +229,6 @@
     display: inline-block;
   }
 }
-
 @media screen and (max-width:680px) {
   .topnav.responsive ul {position: relative;}
   .topnav.responsive ul li.icon {
@@ -292,7 +254,6 @@
 .about-title p {color: #7a7a7a;line-height: 1.8;margin: 0 0 15px;}
 .about-paddingB {padding-bottom: 12px;}
 .about-img {padding-left: 57px;}
-
 /* Social Icons */
 .about-icons {margin:48px 0px 48px 0px ;}
 .about-icons i{margin-right: 10px;padding: 0px; font-size:35px;color:#323232;box-shadow: 0 0 3px rgba(0, 0, 0, .2);}
@@ -301,7 +262,6 @@
  #social-tw:hover {color: #4099FF;transition:all .001s;}
  #social-gp:hover {color: #d34836;transition:all .001s;}
  #social-em:hover {color: #f39c12;transition:all .001s;}
-
   </style>
   
   <div>
@@ -339,10 +299,9 @@
 						Contact Number : 2-726882/0775036170/0776227237
                                                           <div class="about-icons"> 
                             <ul >
-                                <li><a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a> </li>
-                                <li><a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-3x social"></i></a> </li>
-                                <li> <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-3x social"></i></a> </li>
-                                <li> <a href="mailto:bootsnipp@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a> </li>
+                               <li><a href="https://jayanachanuka.github.io/alutch/aboutus" title="">About Us</a></li>
+                        <li><a href="https://jayanachanuka.github.io/alutch/typesofaluminium" title="">Type of Aluminium works</a></li>
+			<li><a href="https://jayanachanuka.github.io/alutch" title="">Home</a></li>
                             </ul>       
                
                
@@ -546,7 +505,6 @@
                         
            <script>
              $(document).ready(function() {
-
 	$('.link-gallery').click(function(){
 		var descripcion = $(this).attr('title');
 		$('#caption').html(descripcion);
@@ -556,7 +514,6 @@
 		$('#myModal').css('display','block');
 		$('.modal-backdrop').remove();
 	});
-
 	$('.close').click(function(){
 		$('#myModal').css('display','none');
 	});
