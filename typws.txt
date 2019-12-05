@@ -1,0 +1,516 @@
+
+<!DOCTYPE html>
+<html>
+   <title>Alutech Engineering SITES</title>
+<head>
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+      <script src="http://code.jquery.com/jquery-1.11.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous" ></script>
+<style>
+  /* body */
+  body {margin: 0;
+  background-color: whitesmoke;}
+  
+  /* nav bar */
+  .topnav ul {
+	border-bottom: 1px solid #333333;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+    max-height: 70px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.topnav ul li {
+	float: right;
+}
+
+.topnav ul li a {
+	font-size: 16px;
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 23px 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.span-logo img {
+	display: inline-block;
+	vertical-align: top;
+	height: 75px;
+	min-height: 75px;
+	width: 75px;
+	min-width: 75px;
+	float: left;
+	padding: 0px;
+}
+
+.span-logo p {
+	font-size: 16px;
+	text-decoration: none;
+	color: #f2f2f2;
+	float: left;
+	padding: 15px 0px;
+}
+
+.topnav ul li a:hover {background-color: #b4aeae;}
+
+.topnav ul li.icon {display: none;}
+
+@media screen and (max-width:680px) {
+  .topnav ul li:not(:first-child) {display: none;}
+  .topnav ul li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  .topnav.responsive ul {position: relative;}
+  .topnav.responsive ul li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive ul li {
+    float: none;
+    display: inline;
+  }
+  .topnav.responsive ul li a {
+    display: block;
+    text-align: left;
+  }
+}
+  
+  /* container gallery */
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+  .desc {
+  background: #ff9b01;
+  
+}
+
+* {
+  box-sizing: border-box;
+}
+
+  /* gallery responsivness */
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+  margin-left: 50px;
+    margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  /* padding space */
+  .pad {
+  padding-top:50px;
+  }
+ .pad1 {
+  padding-top:625px;
+  }
+  .pad3 {
+  padding-top:25px;
+  }
+  .pad2 {
+  padding-top:65px;
+  }
+.titlebar {
+    display: inline-block;
+    width: 50%;
+    background-color: #b4aeae;
+    border-radius: 15px;
+    text-transform: uppercase;
+}
+  
+  /* picture responsivness */
+  .responsive1 {
+  max-width: 100%;
+  height: auto;
+}
+  
+  /* gallery link list */
+  .link_list {
+    margin: 7px;
+}
+ /* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+#footer {
+    background: #333333 !important;
+  margin-top: 500px;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+ 
+  /* weather checker */
+  .modal.modal-wide .modal-dialog {
+  width: 90%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+.ShowWeatherForcast {
+    color: black;
+}
+  input, button, select, textarea {
+    color: black;
+}
+  .btn-primary {
+    bottom: 15px;
+    position: fixed;
+    left: 1350px;
+}
+/* irrelevant styling */
+body { text-align: center; }
+body p { 
+  max-width: 400px; 
+  margin: 20px auto; 
+}
+#tallModal .modal-body p { margin-bottom: 900px }
+  .w3-container {
+    display: inline-block;
+    text-transform: uppercase;
+    border-bottom: 4px solid #3498db;
+    font-size: 20px;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<!-- nav bar -->
+  	<div>
+<div class="topnav">
+		<ul>
+			<li class="icon">
+   				 <a href="javascript:void(0);" onclick="myFunction()">?</a>
+  			</li>
+                       <li><a href="#contact" title="">About Us</a></li>
+                        <li><a href="/forrestaurant/#" title="">Type of Aluminium works</a></li>
+			<li><a href="#contact" title="">Home</a></li>
+			<div>
+				<a href="/home">
+				<span class="span-logo">
+				<img src="http://fancymonk.com/static/fancymonk_logo/ic_fancy_monk_white_small_128.png">
+				<!-- <p>Alutech Engineering Company</p> -->
+				</span>
+				</a>
+			</div>
+		</ul>
+	</div>
+  
+  <!-- ./nav bar -->
+   <div class="pad2"></div>
+  
+  <!-- title -->
+  <div class="w3-container">
+  <center><h1>Alutech Engineering Company</h1></center>
+    </div>
+       <!-- ./title -->
+  <br>
+    <br>
+   <div class="pad3"></div>
+      
+ <!-- banner -->
+        <img src="https://kainos-prod-assets.s3.amazonaws.com/uploads/2019/10/constructionsite_942146.jpg" alt="" class="responsive1" width="1730" height="450">
+          
+          <!-- ./banner -->
+        
+        <div class="pad3"></div>
+  
+        <center><div class="titlebar"><h2>Types of Aluminium works</h2></div></center>
+        
+        
+        
+  <div class="pad"></div>
+
+          <!-- container gallery -->
+          
+          <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/ZJ1SFdB.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Sliding Window</div>
+ 
+     A horizontal sliding window where the sashes operate by sliding along a track in the window frame.
+      Some sliders have fixed sash and some are bypass.
+      Note from outside which sash is operational(left or right).
+      
+      
+   
+        
+        
+  </div>
+</div>
+ 
+  
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/6QmOY7i.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Sliding Doors</div>
+    
+      A sliding door is a type of door which opens horizontally by sliding, usually parallel to a wall.
+    Sliding doors can be mounted either on top of a track below or be suspended from a track above and some types 'disappear' in a wall when slid open.
+   
+        
+  </div>
+  </div>
+</div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/g0bnCnl.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">Sliding Folding</div>
+       
+      The versatile mixture of hinged and folding leaves is designed to give you perfect control over the way that you use the door.
+      The Crown Sliding Folding Door has an innovative continuous hinge for a minimalist appearance. No more unsightly or bulky hinges to ruin the elegant sightline.
+      
+        
+  </div>
+  </div>
+</div>
+  
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/OLwWEs4.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Casement Window</div>
+       
+      A casement is a window that is attached to its frame by one or more hinges at the side
+      Casement windows are often held open using a casement stay.
+      Windows hinged at the top are referred to as awning windows, and ones hinged at the bottom are called hoppers.
+      
+  </div>
+  </div>
+</div>
+    
+    <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/meSMXGd.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Section Doors</div>
+      
+      With the help of our expert team of professionals, we are able to manufacture and supply Aluminium Doors. These doors are fabricated using qualitative raw material that ensures their high durability everlasting finish, and corrosion resistance.
+       <div class="link_list">
+      <div><a href="ain-departement.htm"></a></div>
+      <div><a href="allier-departement.htm"></a> </div>
+      <div><a href="ardeche-departement.htm"></a> </div>
+      <div><a href="cantal-departement.htm"></a> </div>
+      <div><a href="drome-departement.htm"></a> </div>
+      <div><a href="haute-loire-departement.htm"></a></div>
+      <div><a href="haute-savoie-departement.htm"></a> </div>
+        <div><a href="haute-savoie-departement.htm"></a> </div>
+        
+  </div>
+  </div>
+</div>
+      
+      <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/u5ZYafz.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Tempered Glass works</div>
+      
+      Tempered or toughened glass is a type of safety glass processed by controlled thermal or chemical treatments to increase its strength compared with normal glass. Tempering puts the outer surfaces into compression and the interior into tension.
+       <div class="link_list">
+      <div><a href="ain-departement.htm"></a></div>
+      <div><a href="allier-departement.htm"></a> </div>
+      <div><a href="ardeche-departement.htm"></a> </div>
+      <div><a href="cantal-departement.htm"></a> </div>
+      <div><a href="drome-departement.htm"></a> </div>
+      <div><a href="haute-loire-departement.htm"></a></div>
+      <div><a href="haute-savoie-departement.htm"></a> </div>
+        <div><a href="haute-savoie-departement.htm"></a> </div>
+       
+  </div>
+  </div>
+        </div>
+
+       <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.ytimg.com/vi/i2cYRs9ndbg/maxresdefault.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Ceiling works</div>
+       
+      Mount decorative or functional tiles or blocks, strips, or sheets of shock-absorbing materials to ceilings and walls of buildings.
+      
+        
+  </div>
+  </div>
+</div>
+       
+
+ <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="https://i.imgur.com/elsdqve.jpg" alt="Cinque Terre" width="600" height="400">
+    </a>
+    <div class="desc">Aluminium pantry cupboard</div>
+       
+      Mount decorative or functional tiles or blocks, strips, or sheets of shock-absorbing materials to ceilings and walls of buildings.
+      
+        
+  </div>
+  </div>
+</div>
+        
+     
+        
+ <div class="pad1"></div>
+        
+      <!-- Footer -->
+	<section id="footer">
+		<div class="container">
+			<div class="row text-center text-xs-center text-sm-left text-md-left">
+				
+			</div>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+					<ul class="list-unstyled list-inline social text-center">
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+						<li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+				
+				</hr>
+			</div>	
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+					<p><u><a href="">Alutech Engineering</a></u> is a registered company in Sri Lanka, providing services and information to customers from around the globe.</p>
+					<p class="h6">&copy All right Reversed.<a class="text-green ml-2" href="" target="_blank">ALUTECH ENGINEERING</a>
+                    <div class="desc">Contact Number : 2-726882/0775036170/0776227237</div>
+                    
+                    </p>
+				</div>
+				</hr>
+			</div>	
+		</div>
+	</section>
+	<!-- ./Footer -->
+    
+</body>
+</html>
